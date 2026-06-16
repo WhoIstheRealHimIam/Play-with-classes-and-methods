@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Digits {
-    /** The list of digits from the number used to construct this object. */
+    
     private ArrayList<Integer> digitList;
 
-    /** Constructs a Digits object that represents num. */
+
     public Digits(int num) {
         digitList = new ArrayList<Integer>();
 
@@ -18,7 +18,7 @@ public class Digits {
         }
     }
 
-    /** Returns the digits stored in digitList. */
+
     public String toString() {
         return digitList.toString();
     }
